@@ -479,13 +479,13 @@ html {
   
 
                        
-/*body html{
+body html{
     margin: 0;
     padding: 0;
 }
 
 .backgrounding{
-    background-image:url("../img/frontpage.jpeg"); 
+    background-image:url("././img/frontpage.jpeg"); 
     background-size: cover;
     background-position:center center;
     background-repeat: no-repeat;
@@ -496,4 +496,4 @@ html {
 .container
 {
 	margin-top: 10%;
-}*/
+}

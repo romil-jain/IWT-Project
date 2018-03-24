@@ -4,7 +4,7 @@
   "license": "MIT",
   "scripts": {
     "ng": "ng",
-    "start": "ng serve",
+    "start": "ng build && node ./bin/www",
     "build": "ng build --prod",
     "test": "ng test",
     "lint": "ng lint",
@@ -22,12 +22,16 @@
     "@angular/platform-browser-dynamic": "^5.2.0",
     "@angular/router": "^5.2.0",
     "angular-font-awesome": "^3.1.2",
+    "body-parser": "^1.18.2",
     "bootstrap": "^4.0.0",
     "chart.js": "^2.7.2",
     "core-js": "^2.4.1",
+    "express": "^4.16.3",
     "font-awesome": "^4.7.0",
+    "morgan": "^1.9.0",
     "ngx-bootstrap": "^2.0.3",
     "rxjs": "^5.5.6",
+    "serve-favicon": "^2.4.5",
     "zone.js": "^0.8.19"
   },
   "devDependencies": {
